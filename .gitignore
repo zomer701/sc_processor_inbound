@@ -1,0 +1,28 @@
+# === Rust ===
+/target/
+**/*.rs.bk
+
+# === Build & Packaging ===
+/pkg/
+*.lock
+*.log
+
+# === IDEs & Editors ===
+# VS Code
+.vscode/
+/.idea/
+*.sw?
+*~
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Miscellaneous ===
+*.tmp
+*.bak
+*.old
+*.orig
+
+# === Dependency folders ===
+/node_modules/
